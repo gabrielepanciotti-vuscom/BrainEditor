@@ -1,0 +1,13 @@
+{
+  "_nota": "Example areas shipped with the node. A tree overrides them with <instance>/config/brain-editor-areas.json (or AREAS_FILE). 'cartelle_brain' are folders of brain/; 'responsabili' are the emails of the area owners; 'prefissi_domande' are the id prefixes of the rows of the open-questions register (OPEN_QUESTIONS_NOTE).",
+  "aree": [
+    {
+      "id": "general",
+      "nome": "General",
+      "descrizione": "All notes of the brain.",
+      "cartelle_brain": ["entities"],
+      "responsabili": [],
+      "prefissi_domande": []
+    }
+  ]
+}

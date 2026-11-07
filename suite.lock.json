@@ -1,0 +1,31 @@
+{
+  "assets": [
+    "gitignore",
+    "ruff",
+    "brain-wiki",
+    "deploy",
+    "frontend",
+    "agents-md"
+  ],
+  "files": {
+    "deploy/Caddyfile": "sha256:3c756da949d013b9ddff4817122e67146e3188971b419efa73853435c5969638",
+    "deploy/backend.Dockerfile": "sha256:ddee098b21ee9a0debef22da0350bb80a858c7f1f6498abd728c77e81d4713e3",
+    "deploy/backend.Dockerfile.dockerignore": "sha256:e97538efc2ff709bfe889bc22574929d42b4e25b55e874fae804d01a7da03604",
+    "deploy/build.sh": "sha256:6eeb7860f327332826282c9fedc155a0b47b486399fe6aea6c377a5ff17e4cfc",
+    "deploy/docker-compose.prod.yml": "sha256:4e1427fd9a4d622b356e19500c71cc4cce9835c83158ec8be91caa3cc9a57b29",
+    "deploy/docker-compose.yml": "sha256:00801a0cd6a164300bba7bc63dc59cfd46aa07877d8b39a66472cd64eb064035",
+    "deploy/frontend.Dockerfile": "sha256:8cc757912cda29f307f86e88115633cf045ab2dda20fbcbdc5198beb804e5cea",
+    "deploy/frontend.Dockerfile.dockerignore": "sha256:e97538efc2ff709bfe889bc22574929d42b4e25b55e874fae804d01a7da03604",
+    "deploy/frontend.nginx.conf": "sha256:8ecb6b0cdd763e1f55d872ebb3c9425976acebb7468997dd21db652663d815cd",
+    "deploy/prebuild.sh": "sha256:c7aeaa8538613ff65480fa156de1f7311c41ad9fce310b514412824dc88abed0",
+    "frontend/public/favicon.svg": "sha256:139727c15a602b493c6e18f341bc2eb94767c73f35042e559e5529f9c2de2ec7",
+    "ruff.toml": "sha256:cf28c882590d07b190f9a6a18049f53d66956c1e58ef4535d0ac23d078c02fb3"
+  },
+  "node": "brain-editor",
+  "packages": [
+    "suite-backend-core",
+    "@suite/design-system",
+    "@suite/i18n"
+  ],
+  "profile": "app"
+}
