@@ -32,3 +32,6 @@ backend/vendor/*
 
 # Review worktrees of the brain repo (backend/app/revisione.py)
 var/
+# Theme layer: generated per instance by prebuild/compose up, never tracked (Network#67).
+**/src/suite-theme.css
+**/src/suite-branding.json
